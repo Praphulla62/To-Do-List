@@ -1,0 +1,57 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #B18FCF;
+}
+
+.main-container {
+    border: 2px solid black;
+    border-radius: 7px;
+    width: 70vw;
+    background-color:  #92A8D1;
+}
+.container{
+    display: flex;
+    margin: 15px;
+    /* border: 2px solid black; */
+}
+.heading {
+    text-align: center;
+    font-size: 60px;
+}
+
+#add-btn {
+    width: 5rem;
+    height: 5rem;
+    border-radius: 50%;
+    background-color:#F7CAC9;
+}
+.task {
+    /* border: 2px solid black; */
+    width: 80vw;
+}
+.task p{
+    background-color: #F7CAC9;
+    font-size: 2rem;
+    padding: 15px;
+    margin: 5px;
+    border-radius: 5px;
+    width: 60vw;
+}
+
+#del-btn {
+    border: none;
+    background-color:#F7CAC9 ;
+    font-size: 1.5rem;
+    cursor: pointer;
+    /* margin: 15px; */
+    padding: 15px;
+}
